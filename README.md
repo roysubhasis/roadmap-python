@@ -1,2 +1,3 @@
 # study_python
-Python study code
+
+100days_Python_BootCamp course from udemy

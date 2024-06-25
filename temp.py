@@ -14,9 +14,22 @@ or
 Tails
 '''
 
-random_int = random.randint(0,1)
-#print(random_int)
-if (random_int == 0):
-    print("Heads")
-else:
-    print("Tails")
+
+## Code 4 - Lists : Data Structure
+states_of_america = ["Delaware","Pennsylvania","New Jersey","Georgia","California","Florida","Alaska",
+                     "Illinois","Montana","Michigan","Indiana","Texas","New York","Ohio","Hawaii"
+                     "Oregon","Kansas","Washington","Maine","Colorado","Nevada"]
+print(states_of_america[0])
+print(states_of_america[-1])
+print(states_of_america[-2])
+
+# Add a state at the end od the list
+states_of_america.append("Oklahoma")
+print(states_of_america)
+
+# Add/Append few more using extend function
+states_of_america.extend(["Tennessee","Louisiana"])
+print(states_of_america)
+
+
+
